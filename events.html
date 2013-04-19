@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+    <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+        <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+            <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+                <head>
+                    <meta charset="utf-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                    <title></title>
+                    <meta name="description" content="">
+                    <meta name="viewport" content="width=device-width">
+
+                    <link rel="stylesheet" href="css/bootstrap.min.css">
+                    <style type="text/css">
+                        body {
+                        padding-top: 20px;
+                        padding-bottom: 40px;
+                        }
+
+                        /* Custom container */
+                        .container-narrow {
+                        margin: 0 auto;
+                        max-width: 700px;
+                        }
+                        .container-narrow > hr {
+                        margin: 30px 0;
+                        }
+
+                        /* Main marketing message and sign up button */
+                        .jumbotron {
+                        margin: 60px 0;
+                        text-align: center;
+                        }
+                        .jumbotron h1 {
+                        font-size: 72px;
+                        line-height: 1;
+                        }
+                        .jumbotron .btn {
+                        font-size: 21px;
+                        padding: 14px 24px;
+                        }
+
+                        /* Supporting marketing content */
+                        .marketing {
+                        margin: 60px 0;
+                        }
+                        .marketing p + h4 {
+                        margin-top: 28px;
+                        }
+
+/* single pin styles */
+.pin {
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+    float: left;
+    font-size: 11px;
+    margin: 0 15px 15px 0;
+    padding: 15px 15px 0;
+    position: relative;
+    width: 192px;
+}
+.pin .holder {
+    position: relative;
+}
+.pin .actions {
+    left: -8px;
+    position: absolute;
+    top: -8px;
+    z-index: 3;
+}
+.pin .actions a {
+    clear: none;
+    display: none;
+    float: left;
+    margin: 0 5px 0 0;
+}
+.pin .image {
+    background-color: #F2F0F0;
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+    text-decoration: none;
+}
+.pin .image img {
+    max-width: 192px;
+    min-height: 75px;
+    opacity: 1;
+}
+.pin .desc {
+    margin: 10px 0 5px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.pin .info {
+    color: #8C7E7E;
+    line-height: 1.35em;
+    margin: 0 0 0.8em;
+    overflow: hidden;
+}
+.pin .info span {
+    float: left;
+    margin-right: 10px;
+}
+                        
+                    </style>
+
+                    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+                    <link rel="stylesheet" href="css/main.css">
+
+                    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+                </head>
+                <body>
+                    <!--[if lt IE 7]>
+                    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+                    <![endif]-->
+
+                    <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
+                    <!-- facebook stuff -->
+
+                    <div class="container-narrow">
+
+                        <div class="masthead">
+                            <ul class="nav nav-pills pull-right">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="news.html">News</a></li>
+                                <li class="active"><a href="#">Events</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="officers.html">Officers</a></li>
+                            </ul>
+                            <h3 class="muted">
+                                <img src="img/Highlander_Bear_Head.png" style="width:65px;" />
+                                Highlander Gloves</h3>
+                        </div>
+
+                        <hr>
+
+                        <div class="jumbotron">
+                            <h1>Events</h1>
+                        </div>
+
+                        <hr>
+
+                        <div class="row-fluid marketing">
+                            <div class="pin">
+                                <div class="holder">
+                                    <a class="image ajax" href="#" title="Photo number 1" pin_id="1">
+                                        <img alt="Photo number 1" src="img/boxing_1.svg">
+                                    </a>
+                                </div>
+                                <p class="desc">Event #1</p>
+                                <p class="info">
+                                <span>1 photos</span>
+                                <span>April 19, 2013</span>
+                                </p>
+                            </div>
+
+                        </div>
+
+
+
+
+
+                        <hr>
+
+                        <footer>
+                        <p>Website Designed/Programmed by Anthony Doan</p>
+                        </footer>
+
+                    </div> <!-- /container -->
+
+                    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+                    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+                        <script src="js/vendor/bootstrap.min.js"></script>
+
+                        <script src="js/plugins.js"></script>
+                        <script src="js/main.js"></script>
+                        <!--
+                        <script>
+                            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+                            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+                            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+                            s.parentNode.insertBefore(g,s)}(document,'script'));
+                        </script>
+                        -->
+                    </body>
+                </html>
